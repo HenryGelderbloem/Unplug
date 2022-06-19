@@ -78,7 +78,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
                     let currentCarbonIntensityMenuTitle = "Current Carbon Intensity: "
                     
                     let menu = NSMenu()
-                    menu.addItem(NSMenuItem(title: currentCarbonIntensityMenuTitle + ModelData.shared.globalIndex.capitalized , action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q"))
+                    menu.addItem(NSMenuItem(title: currentCarbonIntensityMenuTitle + ModelData.shared.globalIndex.capitalized , action: nil, keyEquivalent: "q"))
                     menu.addItem(NSMenuItem.separator())
                     menu.addItem(NSMenuItem(title: "Quit Unplug", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q"))
                     self.statusItem.menu = menu
