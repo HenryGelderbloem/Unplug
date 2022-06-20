@@ -7,9 +7,9 @@ import UserNotifications
 func requestAuth () {
     ModelData.shared.center.requestAuthorization(options: [.alert, .badge, .sound]) { (granted, error) in
         if granted {
-            print("Yay!")
+            print("Sucess")
         } else {
-            print("D'oh")
+            print("Error")
         }
     }
     scheduleNotification()

@@ -12,6 +12,7 @@
 		BA20CC82285FA2EA00E0EB3D /* StatusMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20CC81285FA2EA00E0EB3D /* StatusMenu.swift */; };
 		BA292C8D2860ED300072E205 /* ConfigureNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA292C8C2860ED300072E205 /* ConfigureNotifications.swift */; };
 		BA292C8F2860EEAA0072E205 /* TriggerNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA292C8E2860EEAA0072E205 /* TriggerNotification.swift */; };
+		BA292C912860F6C60072E205 /* GetBattery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA292C902860F6C60072E205 /* GetBattery.swift */; };
 		BA94F394285A42C8000DD4F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA94F393285A42C8000DD4F8 /* Main.storyboard */; };
 		BA974865285A38EF00D91B4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA974864285A38EF00D91B4F /* AppDelegate.swift */; };
 		BA974867285A38EF00D91B4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA974866285A38EF00D91B4F /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 		BA20CC81285FA2EA00E0EB3D /* StatusMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMenu.swift; sourceTree = "<group>"; };
 		BA292C8C2860ED300072E205 /* ConfigureNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureNotifications.swift; sourceTree = "<group>"; };
 		BA292C8E2860EEAA0072E205 /* TriggerNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerNotification.swift; sourceTree = "<group>"; };
+		BA292C902860F6C60072E205 /* GetBattery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetBattery.swift; sourceTree = "<group>"; };
 		BA94F393285A42C8000DD4F8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		BA974861285A38EF00D91B4F /* Unplug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unplug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA974864285A38EF00D91B4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				BA974868285A38EF00D91B4F /* Assets.xcassets */,
 				BA97486D285A38EF00D91B4F /* Unplug.entitlements */,
 				BA292C8C2860ED300072E205 /* ConfigureNotifications.swift */,
+				BA292C902860F6C60072E205 /* GetBattery.swift */,
 				BA20CC7D285F98AD00E0EB3D /* GetIntensity.swift */,
 				BA20CC7F285F9C2500E0EB3D /* StatusMenuColour.swift */,
 				BA20CC81285FA2EA00E0EB3D /* StatusMenu.swift */,
@@ -154,6 +157,7 @@
 				BA292C8F2860EEAA0072E205 /* TriggerNotification.swift in Sources */,
 				BA292C8D2860ED300072E205 /* ConfigureNotifications.swift in Sources */,
 				BA20CC7E285F98AD00E0EB3D /* GetIntensity.swift in Sources */,
+				BA292C912860F6C60072E205 /* GetBattery.swift in Sources */,
 				BA974865285A38EF00D91B4F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
