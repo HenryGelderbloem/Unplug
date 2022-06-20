@@ -31,7 +31,11 @@ func getIntensity() {
             } catch {
                 print("An error occured:", error)
             }
-            statusMenuColour()
+            if (ModelData.shared.globalIndex == "very high" || ModelData.shared.globalIndex == "high") {
+                requestAuth()
+            } else {
+                //statusMenuColour()
+            }
         }
     }
     task.resume()

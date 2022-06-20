@@ -1,6 +1,7 @@
 
 import Cocoa
 import Foundation
+import UserNotifications
 
 class ModelData: NSObject {
     static let shared: ModelData = ModelData()
@@ -8,6 +9,7 @@ class ModelData: NSObject {
     public var buttonColour: NSColor!
     public var statusItem: NSStatusItem!
     public var currentCarbonIntensityMenuTitle:String = "Current Carbon Intensity: "
+    public let center = UNUserNotificationCenter.current()
 }
 
 @main
