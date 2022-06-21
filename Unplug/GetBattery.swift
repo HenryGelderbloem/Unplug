@@ -252,12 +252,10 @@ public class InternalFinder {
 func getBattery() {
     let internalFinder = InternalFinder()
     if let internalBattery = internalFinder.getInternalBattery() {
-        //print(internalBattery.currentCapacity)
-        if internalBattery.currentCapacity! < 80 {
+        if internalBattery.currentCapacity! > 80 && ((internalBattery.isCharging! || internalBattery.isCharged!) == true) {
             requestAuth()
         } else {
             statusMenuColour()
         }
     }
 }
-
